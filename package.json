@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "fetch-css": "^3.1.12",
+    "get-site-urls": "^1.1.7",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.12",
+    "x-ray-scraper": "^3.0.6"
+  }
+}
